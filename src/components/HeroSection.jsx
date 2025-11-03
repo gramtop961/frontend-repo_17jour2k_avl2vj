@@ -1,6 +1,6 @@
 import React from 'react';
 import Spline from '@splinetool/react-spline';
-import { Sunset, Map, Trees } from 'lucide-react';
+import { Sun, Map, Trees } from 'lucide-react';
 
 export default function HeroSection() {
   return (
@@ -39,7 +39,7 @@ export default function HeroSection() {
             href="#founder"
             className="inline-flex items-center gap-2 rounded-full border border-white/30 px-5 py-2.5 font-medium text-white/90 backdrop-blur transition hover:bg-white/10"
           >
-            <Sunset className="h-4 w-4" /> Founder's Thought
+            <Sun className="h-4 w-4" /> Founder's Thought
           </a>
         </div>
       </div>
